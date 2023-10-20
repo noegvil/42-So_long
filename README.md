@@ -2,7 +2,7 @@
 "So long" was my first graphic design project at 42 school. 
 The primary objective of this project was to acquire the skills needed to utilize a graphics library and develop a 2D game using the C programming language. Through this project, I gained essential expertise in graphic creation and game programming, allowing me to explore fundamental concepts in interactive software development.
 
-About the game:
+## About the game:
 
 In this project, I created a 2D game where the player's objective is to collect all objects on the map and exit by choosing the shortest route possible. The main features of the game include:
 
@@ -14,7 +14,7 @@ In this project, I created a 2D game where the player's objective is to collect 
 -  Non-real-time gameplay, allowing turn-based movement.
 -  Thematic flexibility to create the desired game world.
 
-Graphics Management:
+## Graphics Management:
 
 The game features a graphical interface with the following functionalities:
 
@@ -23,7 +23,7 @@ The game features a graphical interface with the following functionalities:
 -  Clicking the red cross on the window closes the window and ends the program cleanly.
 -  The MLX42 library is used for graphics rendering.
 
-Map:
+## Map:
 
 The map is constructed with three main components: walls, collectibles, and open spaces. Key aspects of the map include:
 
