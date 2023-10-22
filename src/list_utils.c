@@ -6,7 +6,7 @@
 /*   By: noelgarc <noelgarc@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/19 13:16:12 by noelgarc          #+#    #+#             */
-/*   Updated: 2023/10/22 21:47:18 by noelgarc         ###   ########.fr       */
+/*   Updated: 2023/10/22 21:57:38 by noelgarc         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,7 @@
  * @brief	Create a new node object
  * 
  * @param line	String that will go into the node content
- * @return t_list*	Pointer to the new node
+ * @return t_list*: Pointer to the new node
  */
 
 t_list	*create_node(char *line)
@@ -58,7 +58,7 @@ t_list	*add_back_list(t_list *to_add, t_list *begin_list)
  * 
  * @param list	Pointer to the list used
  * @param rows	Number of elements of the linked list (not null)
- * @return char**	The matrix created or NULL if it fails
+ * @return char**: The matrix created or NULL if it fails
  */
 
 char	**list_to_matrix(t_list	*list, int rows)

@@ -6,7 +6,7 @@
 /*   By: noelgarc <noelgarc@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/29 12:41:10 by noelgarc          #+#    #+#             */
-/*   Updated: 2023/10/22 21:46:35 by noelgarc         ###   ########.fr       */
+/*   Updated: 2023/10/22 21:57:51 by noelgarc         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,7 +25,7 @@
 /**
  * @name	ft_game
  * @brief	Manages the game including deleting images and
- * 	textures as well as using mlx_terminate to finish
+ * textures as well as using mlx_terminate to finish
  * 
  * @param game	Pointer to a structure containing information about the map
  */

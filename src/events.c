@@ -6,7 +6,7 @@
 /*   By: noelgarc <noelgarc@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/26 11:09:34 by noelgarc          #+#    #+#             */
-/*   Updated: 2023/10/22 21:48:38 by noelgarc         ###   ########.fr       */
+/*   Updated: 2023/10/22 21:56:09 by noelgarc         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,12 +32,12 @@ void	win_condition(t_data	*game)
 }
 
 /**
- * @brief		Update necessary data to continue the game and then 
- * 				print the map again.
+ * @brief	Update necessary data to continue the game and then 
+ * print the map again.
  * 
- * @param game		Pointer to a structure containing information about the map.
+ * @param game	Pointer to a structure containing information about the map.
  * @param player	One of the two characters that will be exchanged
- * @param floor 	The other of the two characters that will be exchanged
+ * @param floor	The other of the two characters that will be exchanged
  */
 
 void	update_data(t_data	*game, char player, char floor)
@@ -55,7 +55,7 @@ void	update_data(t_data	*game, char player, char floor)
 
 /**
  * @brief	Selects the path to be followed by the program based on the
- * 	content of the new coordinates.
+ * content of the new coordinates.
  * 
  * @param game	Pointer to a structure containing information about the map.
  */
@@ -76,10 +76,10 @@ void	which_path(t_data	*game)
 }
 
 /**
- * @brief 	Callback function used to handle keypresses.
+ * @brief	Callback function used to handle keypresses.
  * 
  * @param keydata	The callback data, contains info on key, action,...
- * @param param 	Used to connect to the original t_data *game structure.
+ * @param param	Used to connect to the original t_data *game structure.
  */
 
 void	which_event(mlx_key_data_t keydata, void *param)

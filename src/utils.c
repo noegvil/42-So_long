@@ -6,7 +6,7 @@
 /*   By: noelgarc <noelgarc@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/03 12:44:09 by noelgarc          #+#    #+#             */
-/*   Updated: 2023/10/22 21:40:35 by noelgarc         ###   ########.fr       */
+/*   Updated: 2023/10/22 22:04:20 by noelgarc         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -53,10 +53,10 @@ void	is_error(char *str)
 }
 
 /**
- * @brief		Check if the argument that represents the path of 
- * 				a file is valid for the program.
+ * @brief	Check if the argument that represents the path of a file
+ * is valid for the program.
  * 
- * @param str	The path of a file.
+ * @param st	The path of a file.
  */
 
 void	check_argv(char *str)

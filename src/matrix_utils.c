@@ -6,7 +6,7 @@
 /*   By: noelgarc <noelgarc@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/20 11:08:41 by noelgarc          #+#    #+#             */
-/*   Updated: 2023/10/22 21:42:46 by noelgarc         ###   ########.fr       */
+/*   Updated: 2023/10/22 22:03:43 by noelgarc         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,7 @@
  * 
  * @param matrix	The matrix that is going to be duplicated.
  * @param rows	Number of rows (non null) of the original matrix.
- * @return char**	A pointer to the new matrix.
+ * @return char** A pointer to the new matrix.
  */
 
 char	**dup_map(char **matrix, int rows)
@@ -122,9 +122,9 @@ int	find_chr(char	**matrix, int rows, char c)
 }
 
 /**
- * @brief	Frees completely a multi-dimensional array (char **)
+ * @brief		Frees completely a multi-dimensional array (char **)
  * 
- * @param matrix	The char **array to be freed
+ * @param matrix 	The char **array to be freed
  */
 
 void	free_matrix(char **matrix)
