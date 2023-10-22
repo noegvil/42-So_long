@@ -6,7 +6,7 @@
 /*   By: noelgarc <noelgarc@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/20 11:08:41 by noelgarc          #+#    #+#             */
-/*   Updated: 2023/10/22 22:03:43 by noelgarc         ###   ########.fr       */
+/*   Updated: 2023/10/22 22:13:20 by noelgarc         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,9 +15,9 @@
 /**
  * @brief	Duplicates a matrix (char **) given.
  * 
- * @param matrix	The matrix that is going to be duplicated.
- * @param rows	Number of rows (non null) of the original matrix.
- * @return char** A pointer to the new matrix.
+ * @param	matrix: The matrix that is going to be duplicated.
+ * @param	rows: Number of rows (non null) of the original matrix.
+ * @return	char **: A pointer to the new matrix.
  */
 
 char	**dup_map(char **matrix, int rows)
@@ -74,11 +74,11 @@ void	get_coordinates(t_data *game, char c)
 
 /**
  * @brief	Recursive algorithm that determines the area connected to a given
- *	cell in a multi-dimensional array
+ * cell in a multi-dimensional array
  * 
- * @param matrix	Multi-dimensional array where the path will be searched
- * @param x	Rows coordinates
- * @param y	Columns coordinates
+ * @param	matrix: Multi-dimensional array where the path will be searched
+ * @param	x: Rows coordinates
+ * @param	y: Columns coordinates
  */
 
 void	flood_fill(char **matrix, int x, int y)
@@ -101,8 +101,8 @@ void	flood_fill(char **matrix, int x, int y)
 /**
  * @brief	Searchs the first occurrence of a char in a matrix.
  * 
- * @param matrix	The matrix to be inspected.
- * @param rows	Number of rows of the matrix.
+ * @param matrix: The matrix to be inspected.
+ * @param rows:	Number of rows of the matrix.
  * @param c	The char to be searched.
  * @return int	1 (if the char has been found), 0 (if not).
  */

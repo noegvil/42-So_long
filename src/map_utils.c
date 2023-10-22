@@ -6,7 +6,7 @@
 /*   By: noelgarc <noelgarc@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/23 13:48:08 by noelgarc          #+#    #+#             */
-/*   Updated: 2023/10/22 22:02:06 by noelgarc         ###   ########.fr       */
+/*   Updated: 2023/10/22 22:10:28 by noelgarc         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,8 +16,8 @@
  * @name	read_map
  * @brief	Reads a file and stores each line in a linked list
  * 
- * @param str	Path to a file location
- * @return t_list*: The linked list that contents the original map lines
+ * @param	str: Path to a file location
+ * @return 	t_list*: The linked list that contents the original map lines
  */
 
 t_list	*read_map(char *str)
@@ -43,8 +43,8 @@ t_list	*read_map(char *str)
 /**
  * @name	window_config
  * @brief	- Initialize and run a new window instance with 'mlx_init'
- * - Load a PNG file into a buffer with 'mlx_load_png'
- * - Converts a given texture to an image with 'mlx_texture_to_image'
+ * 	-	Load a PNG file into a buffer with 'mlx_load_png'
+ * 	-	Converts a given texture to an image with 'mlx_texture_to_image'
  * 
  * @param game	Pointer to a structure containing information about the map
  */
