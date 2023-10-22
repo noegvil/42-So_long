@@ -6,17 +6,17 @@
 /*   By: noelgarc <noelgarc@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/20 11:08:41 by noelgarc          #+#    #+#             */
-/*   Updated: 2023/10/04 22:14:46 by noelgarc         ###   ########.fr       */
+/*   Updated: 2023/10/22 21:42:46 by noelgarc         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../so_long.h"
 
 /**
- * @brief			Duplicates a matrix (char **) given.
+ * @brief	Duplicates a matrix (char **) given.
  * 
  * @param matrix	The matrix that is going to be duplicated.
- * @param rows		Number of rows (non null) of the original matrix.
+ * @param rows	Number of rows (non null) of the original matrix.
  * @return char**	A pointer to the new matrix.
  */
 
@@ -44,10 +44,10 @@ char	**dup_map(char **matrix, int rows)
 }
 
 /**
- * @brief		Get the coordinates of a searched object (char).
+ * @brief	Get the coordinates of a searched object (char).
  * 
  * @param game	Pointer to a structure containing information about the map.
- * @param c		The object (char) for which the coordinates are needed.
+ * @param c	The object (char) for which the coordinates are needed.
  */
 
 void	get_coordinates(t_data *game, char c)
@@ -73,12 +73,12 @@ void	get_coordinates(t_data *game, char c)
 }
 
 /**
- * @brief			Recursive algorithm that determines the area connected 
- * 					to a given cell in a multi-dimensional array
+ * @brief	Recursive algorithm that determines the area connected to a given
+ *	cell in a multi-dimensional array
  * 
  * @param matrix	Multi-dimensional array where the path will be searched
- * @param x			Rows coordinates
- * @param y 		Columns coordinates
+ * @param x	Rows coordinates
+ * @param y	Columns coordinates
  */
 
 void	flood_fill(char **matrix, int x, int y)
@@ -99,12 +99,12 @@ void	flood_fill(char **matrix, int x, int y)
 }
 
 /**
- * @brief			Searchs the first occurrence of a char in a matrix.
+ * @brief	Searchs the first occurrence of a char in a matrix.
  * 
  * @param matrix	The matrix to be inspected.
- * @param rows		Number of rows of the matrix.
- * @param c			The char to be searched.
- * @return int 		1 (if the char has been found), 0 (if not).
+ * @param rows	Number of rows of the matrix.
+ * @param c	The char to be searched.
+ * @return int	1 (if the char has been found), 0 (if not).
  */
 
 int	find_chr(char	**matrix, int rows, char c)
@@ -122,7 +122,7 @@ int	find_chr(char	**matrix, int rows, char c)
 }
 
 /**
- * @brief			Frees completely a multi-dimensional array (char **)
+ * @brief	Frees completely a multi-dimensional array (char **)
  * 
  * @param matrix	The char **array to be freed
  */

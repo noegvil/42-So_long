@@ -6,17 +6,17 @@
 /*   By: noelgarc <noelgarc@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/19 13:16:12 by noelgarc          #+#    #+#             */
-/*   Updated: 2023/10/20 14:45:51 by noelgarc         ###   ########.fr       */
+/*   Updated: 2023/10/22 21:47:18 by noelgarc         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../so_long.h"
 
 /**
- * @brief			Create a new node object
+ * @brief	Create a new node object
  * 
- * @param line		String that will go into the node content
- * @return t_list* 	Pointer to the new node
+ * @param line	String that will go into the node content
+ * @return t_list*	Pointer to the new node
  */
 
 t_list	*create_node(char *line)
@@ -32,11 +32,11 @@ t_list	*create_node(char *line)
 }
 
 /**
- * @brief				Adds a node to the end of a given linked list
+ * @brief	Adds a node to the end of a given linked list
  * 
- * @param to_add		The node that will be added
+ * @param to_add	The node that will be added
  * @param begin_list	The list to which the node is to be added
- * @return t_list* 
+ * @return	t_list* 
  */
 
 t_list	*add_back_list(t_list *to_add, t_list *begin_list)
@@ -54,11 +54,11 @@ t_list	*add_back_list(t_list *to_add, t_list *begin_list)
 }
 
 /**
- * @brief			Creates a char **matrix from a linked list
+ * @brief	Creates a char **matrix from a linked list
  * 
- * @param list		Pointer to the list used
- * @param rows		Number of elements of the linked list (not null)
- * @return char** 	The matrix created or NULL if it fails
+ * @param list	Pointer to the list used
+ * @param rows	Number of elements of the linked list (not null)
+ * @return char**	The matrix created or NULL if it fails
  */
 
 char	**list_to_matrix(t_list	*list, int rows)
@@ -90,9 +90,9 @@ char	**list_to_matrix(t_list	*list, int rows)
 }
 
 /**
- * @brief			Frees a linked list
+ * @brief	Frees a linked list
  * 
- * @param list		Pointer to the linked list that will be free
+ * @param list	Pointer to the linked list that will be free
  */
 
 void	free_list(t_list *list)

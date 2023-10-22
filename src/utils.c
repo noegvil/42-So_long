@@ -6,7 +6,7 @@
 /*   By: noelgarc <noelgarc@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/03 12:44:09 by noelgarc          #+#    #+#             */
-/*   Updated: 2023/10/20 14:47:59 by noelgarc         ###   ########.fr       */
+/*   Updated: 2023/10/22 21:40:35 by noelgarc         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 /**
  * @brief	Initialises the values of a t_data structure.
  * 
- * @return 	A pointer to the structue (t_data *).
+ * @return	A pointer to the structue (t_data *).
  */
 
 t_data	*init_game(void)
@@ -41,9 +41,9 @@ t_data	*init_game(void)
 }
 
 /**
- * @brief		Displays an error message for the standard error output.
+ * @brief	Displays an error message for the standard error output.
  * 
- * @param str 	The error message.
+ * @param str	The error message.
  */
 
 void	is_error(char *str)
@@ -68,7 +68,7 @@ void	check_argv(char *str)
 }
 
 /**
- * @brief		Frees the elements that has been dinamically allocated.
+ * @brief	Frees the elements that has been dinamically allocated.
  * 
  * @param game	Pointer to a structure containing information about the map.
  */
@@ -88,9 +88,9 @@ void	final_free(t_data *game)
 }
 
 /**
- * @brief		Gives the len of a string that can be ended by '\n'.
+ * @brief	Gives the len of a string that can be ended by '\n'.
  * 
- * @param s		The string.
+ * @param s	The string.
  * @return int	The len of the string.
  */
 

@@ -6,18 +6,18 @@
 /*   By: noelgarc <noelgarc@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/18 11:53:29 by noelgarc          #+#    #+#             */
-/*   Updated: 2023/10/04 22:17:51 by noelgarc         ###   ########.fr       */
+/*   Updated: 2023/10/22 21:51:11 by noelgarc         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../so_long.h"
 
 /**
- * @brief			Sets the game->cols and game->rows variables and 
- * 					check if the map is rectangular with at least 3 rows.
+ * @brief	Sets the game->cols and game->rows variables and 
+ * 	check if the map is rectangular with at least 3 rows.
  * 
- * @param game 		Pointer to a structure containing information about the map.
- * @return int		1 if the map is rectangular, 0 if not.
+ * @param game	Pointer to a structure containing information about the map.
+ * @return int	1 if the map is rectangular, 0 if not.
  */
 
 int	check_matrix_structure(t_data	*game)
@@ -39,7 +39,7 @@ int	check_matrix_structure(t_data	*game)
 }
 
 /**
- * @brief 			Checks if a matrix is delimited by '1'.
+ * @brief 		Checks if a matrix is delimited by '1'.
  * 
  * @param matrix 	The matrix to be checked.
  * @param rows		Number of rows of the matrix to be checked.
@@ -71,11 +71,11 @@ int	closed_map(char **matrix, int rows, int cols)
 
 /**
  * @brief		Checks that there is only one exit (E), only one player (P),
- * 				at least one collectible (C) and
- * 				that the rest are floor (0) and walls (1)
+ * 		at least one collectible (C) and
+ * 		that the rest are floor (0) and walls (1)
  * 
- * @param game	Pointer to a structure containing information about the map.
- * @return int	1 (the elements are right) or 0 (if not).
+ * @param game		Pointer to a structure containing information about the map.
+ * @return int		1 (the elements are right) or 0 (if not).
  */
 
 int	elements_inside_map(t_data	*game)
@@ -108,10 +108,10 @@ int	elements_inside_map(t_data	*game)
 
 /**
  * @brief 		Check that there is at least one valid path
- * 				where the player can find the exit with all collectibles.
+ * 		where the player can find the exit with all collectibles.
  * 
- * @param game	Pointer to a structure containing information about the map.
- * @return int:	1 (there is a valid path) or 0 (if not).
+ * @param game		Pointer to a structure containing information about the map.
+ * @return int:		1 (there is a valid path) or 0 (if not).
  */
 
 int	check_valid_path(t_data *game)
@@ -127,12 +127,12 @@ int	check_valid_path(t_data *game)
 }
 
 /**
- * @brief			Calls the necessary functions in order to check 
- * 					if the map meets all the requirements.
+ * @brief		Calls the necessary functions in order to check 
+ * 		if the map meets all the requirements.
  * 
  * @param game		Pointer to a structure containing information about the map.
  * @return char* 	- NULL if the map meets all the requirements.
- * 					- a string with the corresponding error message.
+ * 		- a string with the corresponding error message.
  */
 
 char	*check_map(t_data *game)
